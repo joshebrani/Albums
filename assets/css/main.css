@@ -12,8 +12,18 @@
 	height: 100%;
 }
 
+.image1:hover {
+	border-radius: 50px;
+	border: solid yellow 1px;
+	transform: scale(.95)
+}
+
 .lower {
 	text-transform: none;
+}
+
+.hov:hover {
+	border-radius: 100px;
 }
 
 @-moz-keyframes spinner {
@@ -227,8 +237,9 @@ input, select, textarea {
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
-			color: #34a58e !important;
+			/* border-bottom-color: transparent; */
+			/* color: #34a58e !important; */
+			
 		}
 
 	strong, b {
